@@ -1,0 +1,42 @@
+Menu-Principal:
+  recompensas:
+    slot: 11
+    ID: 'SKULL: d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622'
+    display: '&a&lRECOMPENSAS'
+    lore:
+      - '&7Recolha aqui as recompensas'
+      - '&7dos bosses que matou!'
+      - ''
+      - '&aClique para ver!'
+  loja:
+    slot: 12
+    ID: 'SKULL: 91be4b5b592fee21a65e0f903038c5333be388234a43731d4adfe5d57d3644e5'
+    display: '&a&lLOJA'
+    lore:
+      - '&7Nesta loja você pode'
+      - '&7comprar diversos itens tais '
+      - '&7como matadoras e bosses!'
+      - ''
+      - '&aClique para ver!'
+  bosses:
+    slot: 14
+    ID: 'SKULL: 3327009cd471884115203860c1daf6d825c0845f8a528c6ef6bd24eb86b4b38b'
+    display: '&a&lBOSSES'
+    lore:
+      - '&7Veja aqui as recompensas '
+      - '&7e vida de todos os bosses! '
+      - ''
+      - '&aClique para ver!'
+      
+  top:
+    slot: 15
+    ID: 'SKULL: 42c3d731770797e17abcb14ae0fc9d9e068deb749dddb92501c0f6145769e25c'
+    display: '&a&lTOP'
+    lore:
+      - '&7Veja o top de jogadores '
+      - '&7com mais dano em bosses! '
+      - ''
+      - '&aClique para ver!'
+  
+  stats:
+    slot: 31

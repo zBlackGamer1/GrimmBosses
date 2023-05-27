@@ -1,0 +1,24 @@
+MySQL:
+  ativo: false
+  address: 'localhost:3306'
+  database: 'test'
+  username: 'root'
+  password: ''
+  
+  
+plotworld: 'plots' # nome do mundo dos plots
+
+msg-killboss-recompensa: '&aVocê matou um boss e recebeu &a&n%quantia%&a recompensas! &7(/bosses)'
+msg-killboss: '&aVocê matou um boss mas não recebeu nada!'
+msg-mobperto: '&cColoque o boss a pelo menos 5 blocos de outro mob!'
+msg-bossspawned: '&aBoss %tipo% foi spawnado com sucesso!'
+msg-bossteleported: '&c&lNOTA! &cO boss foi transportado para a superfície mais próxima!' # Quando nasce suterrado
+msg-invfull: '&cEsvazie o seu inventário para coletar!'
+msg-coletados: '&aVocê coletou %quantia% recompensas dos bosses!'
+msg-itensparacoletar: '&c&lNOTA! &cVocê ainda tem mais itens, esvazie o inventário para coletar!'
+msg-notowner: '&cVocê não pode matar este boss!'
+
+# %tipom% - para mandar nome do tipo em maiusculas
+# %tipo% - para mandar o nome do tipo normal
+msg-actionbar: '&6&lBOSS %tipom%! &a%vida% HP &7(&c-%dano%&7) %progressbar%' # Quando o player hita o boss (Mensagem na actionbar)
+

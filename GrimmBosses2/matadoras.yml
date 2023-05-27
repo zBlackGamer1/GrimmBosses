@@ -1,0 +1,18 @@
+HitKill:
+  Dano: 99999999
+  Display: '&6Matadora de Bosses'
+  Lore:
+    - '&7Use esta espada para'
+    - '&7matar os seus bosses'
+    - '&7com apenas um clique!'
+    - ''
+    - ' &c&lHIT KILL'
+    
+1:
+  Dano: 1000
+  Display: '&6Matadora de Bosses'
+  Lore:
+    - '&7Use esta espada para'
+    - '&7matar os seus bosses!'
+    - ''
+    - '&e Dano: &f1000 &c❤'

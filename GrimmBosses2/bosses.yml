@@ -1,0 +1,37 @@
+# CMD: alerta &e%player%&f coletou &e%quantia%&f diamantes de boss!
+Macaco:
+  HP: 10000
+  skin-file: 'Boxer.mpet' # ATENÇÃO! Tem que estar na pasta 'pets' do plugin 'MiniaturePets'
+  Holograma-pos: '+0.5, +2.4, +0.5' # Use para centrar o holograma com o boss (Ordem, x y z)
+  Holograma:
+    - '&6&lBOSS MACACO'
+    - '&7%hp%&b/&7%max-hp% &bHP &c❤'
+    - '&a✭&7✭✭✭✭'
+  Item:
+    ID: '383:51' # Para colocar uma head costumizada coloque Ex: 'SKULL: 3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025'
+    Name: '&6&lBOSS MACACO'
+    Lore:
+      - ' &e10000 &c❤ HP'
+      - ''
+      - '&eClique para spawnar boss!'
+    
+  Recompensas:
+    1: 
+      Recompensa: 'ITEM'
+      Chance: 50 # O minimo possível é 0.1
+      Item: # O ITEM SERVIRÁ DE ICONE E TAMBÉM DE ITEM PARA SER DADO AO PLAYER (CASO O TIPO DE RECOMPENSA SEJA O ITEM)
+        ID: '264' # Para colocar uma head costumizada coloque Ex: 'SKULL: 3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025'
+        Name: '&e&lDIAMANTE'
+        Lore:
+          - ''
+          - '&7Prémio de matar o boss macaco!'
+
+    2:
+      Recompensa: 'CMD: alerta &e%player%&f coletou &e1&f diamante de boss!' # O Comando será sempre enviado por console
+      Chance: 100
+      Item:
+        ID: '339'
+        Name: '&a&lALERTA'
+        Lore:
+          - ''
+          - '&7Irá mandar um alerta a todo o servidor!'

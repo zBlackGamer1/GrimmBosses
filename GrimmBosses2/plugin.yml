@@ -1,0 +1,9 @@
+name: GrimmBosses
+version: 1.0.0
+author: zBlackGamer
+main: pt.com.GrimmBosses.Main
+depend: [MiniaturePets, HolographicDisplays]
+commands:
+  bosses:
+    aliases: [boss]
+    description: Comando principal do plugin.
